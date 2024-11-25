@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Basic&family=Dancing+Script:wght@400;500;600;700&family=PT+Serif&family=Poppins:wght@300&family=Quicksand&family=Roboto:wght@100&family=Sometype+Mono&family=Ubuntu+Condensed&display=swap');
+body{
+  margin:0px;
+  background-color:#00246B;
+  color: #CADCFC;
+   font-family: "Agbalumo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.roman{
+  border:2px groove #36454F;;
+  background-color:#36454F;
+   text-align:center;
+    height: 300px;          
+    width:450px;
+    border-radius:12px;
+  }
+  .container{
+     display: flex;
+    justify-content: center;
+    align-items:center;
+    
+  }
+  #output{
+    font-size:20px;
+    color:white;
+    height:100px;
+
+  }
+  #input{
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+  }
+  #number{
+    color:black;
+    font-size:18px;
+  }
+  button{  
+  background-color:#FFBF00;
+  cursor:pointer;
+  border-radius:7px;
+  padding:5px;
+  width:150px;
+  font-size:20px;
+}
+ button:hover {
+      background-color: #FBEAEB;
+      transform: scale(1.1);   
+}
+input{
+  border-radius:7px;
+  padding:5px;
+  width:150px;
+}
